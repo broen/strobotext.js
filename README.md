@@ -2,7 +2,7 @@
 
 a jQuery plugin for text with a stroboscope effect
 
-### It's as easy as it gets:
+#### It's as easy as it gets:
 
 ```
 <div class="strobe"></div>
@@ -11,8 +11,8 @@ a jQuery plugin for text with a stroboscope effect
 ```
 $('strobe').strobotext({
 	text    : ['strobo', 'text'],   // text array
-    color   : 10,                   // color change interval
-    word    : 300                   // word change interval 
+    color   : 10,                   // color change interval (optional)
+    word    : 300                   // word change interval (optional) 
 });
 ```
 
