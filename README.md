@@ -1,15 +1,13 @@
 # strobotext.js
 
-jQuery plugin for text with a stroboscope effect
+a jQuery plugin for text with a stroboscope effect
 
 ### It's as easy as it gets:
 
-HTML:
 ```
 <div class="strobe"></div>
 ```
 
-JS:
 ```
 $('strobe').strobotext({
 	text    : ['strobo', 'text'],   // text array
@@ -18,4 +16,4 @@ $('strobe').strobotext({
 });
 ```
 
-#### maybe not ideal for epileptics
+###### this might not be ideal for epileptics
