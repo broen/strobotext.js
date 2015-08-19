@@ -1,0 +1,44 @@
+<!-- 
+
+
+
+
+           _                           _         
+          | |__  _ __ ___   ___ _ __  | |___   __
+          | '_ \| '__/ _ \ / _ \ '_ \ | __\ \ / /
+          | |_) | | | (_) |  __/ | | || |_ \ V / 
+          |_.__/|_|  \___/ \___|_| |_(_)__| \_/  
+
+
+
+
+
+                                                 
+-->
+
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta content="text/html; charset=utf-8" />
+    <title>strobotext.js</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/strobotext.js"></script>
+</head>
+<body>
+
+<p class="strobo">
+	strobotext
+</p>
+
+<script>
+	$(document).ready(function(){
+		$('.strobo').strobotext({
+			text:['strobotext', 'makes', 'you', 'wanna', 'dance']
+		});
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'rex_bold_inlineregular';
+    src: url('rex_bold_inline-webfont.eot');
+    src: url('rex_bold_inline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rex_bold_inline-webfont.woff') format('woff'),
+         url('rex_bold_inline-webfont.ttf') format('truetype'),
+         url('rex_bold_inline-webfont.svg#rex_bold_inlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	background: #222;
+	font-family: rex_bold_inlineregular;
+    font-size: 10em;
+    text-align: center;
+}
